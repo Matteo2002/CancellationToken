@@ -6,7 +6,22 @@
         xmlns:local="clr-namespace:CancellationToken"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid x:Name="txt_Max3" Background="#FFEA1717">
+        <Button x:Name="btn_Start1" Content="Start 1" HorizontalAlignment="Left" Height="28" Margin="97,46,0,0" VerticalAlignment="Top" Width="96" Background="#FFDCFF00" Click="Btn_Start1_Click"/>
+        <Button x:Name="btn_Start3" Content="Start 3 " HorizontalAlignment="Left" Height="28" Margin="580,46,0,0" VerticalAlignment="Top" Width="96" Background="#FFDCFF00"/>
+        <Button x:Name="btn_Start2" Content="Start 2" HorizontalAlignment="Left" Height="28" Margin="338,46,0,0" VerticalAlignment="Top" Width="96" Background="#FFDCFF00"/>
+        <Label x:Name="lbl_Count1" Content="0" HorizontalAlignment="Left" Height="27" Margin="97,113,0,0" VerticalAlignment="Top" Width="96"/>
+        <Label x:Name="lbl_Count3" Content="0" HorizontalAlignment="Left" Height="27" Margin="580,113,0,0" VerticalAlignment="Top" Width="96"/>
+        <Label x:Name="lbl_Count2" Content="0" HorizontalAlignment="Left" Height="27" Margin="338,113,0,0" VerticalAlignment="Top" Width="96"/>
+        <TextBox x:Name="txt_Max2" HorizontalAlignment="Left" Height="27" Margin="347,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136"/>
+        <TextBox x:Name="txt_Delay" HorizontalAlignment="Left" Height="27" Margin="580,227,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136"/>
+        <TextBox HorizontalAlignment="Left" Height="27" Margin="580,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136"/>
+        <Label Content="Max" HorizontalAlignment="Left" Height="27" Margin="310,173,0,0" VerticalAlignment="Top" Width="32"/>
+        <Label Content="Delay" HorizontalAlignment="Left" Height="27" Margin="533,227,0,0" VerticalAlignment="Top" Width="47" RenderTransformOrigin="0.723,0.519"/>
+        <Label Content="Max" HorizontalAlignment="Left" Height="27" Margin="540,173,0,0" VerticalAlignment="Top" Width="35"/>
+        <Button Content="Stop 1" HorizontalAlignment="Left" Height="28" Margin="97,291,0,0" VerticalAlignment="Top" Width="96" Click="Button_Click" Background="#FFDCFF00"/>
+        <Button Content="Stop 3" HorizontalAlignment="Left" Height="28" Margin="580,300,0,0" VerticalAlignment="Top" Width="96" Background="#FFDCFF00"/>
+        <Button Content="Stop 2" HorizontalAlignment="Left" Height="28" Margin="338,300,0,0" VerticalAlignment="Top" Width="96" Background="#FFDCFF00"/>
+        <Button x:Name="btn_Stop" Content="STOP" HorizontalAlignment="Left" Height="43" Margin="266,354,0,0" VerticalAlignment="Top" Width="272" Click="Button_Click" Background="#FFFF8B00"/>
     </Grid>
 </Window>
